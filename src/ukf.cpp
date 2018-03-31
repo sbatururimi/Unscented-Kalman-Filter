@@ -352,6 +352,9 @@ void UKF::UpdateLidar(MeasurementPackage meas_package) {
     
     // NIS
     double eps = z_diff.transpose() * S.inverse() * z_diff;
+    ofstream lidarNISFile;
+    lidarNISFile.open("./../nis_lidar.txt", ios_base::app);
+    lidarNISFile << eps << endl;
     cout << "lidar NIS: " << eps << endl;
     
 }
@@ -465,5 +468,8 @@ void UKF::UpdateRadar(MeasurementPackage meas_package) {
 
     // NIS
     double eps = z_diff.transpose() * S.inverse() * z_diff;
+    ofstream radarNISFile;
+    radarNISFile.open("./../nis_radar.txt", ios_base::app);
+    radarNISFile << eps << endl;
     cout << "radar NIS: " << eps << endl;
 }
