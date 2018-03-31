@@ -90,3 +90,7 @@ for instructions and the project rubric.
 ## How to write a README
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/sbatururimi/Unscented-Kalman-Filter/blob/master/LICENSE.md)
+
