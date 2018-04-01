@@ -8,7 +8,7 @@
 
 [image0]: ./nis_lidar.jpg "Nis Lidar"
 [image1]: ./nis_radar.jpg "Nis Radar"
-[image2]: ./chi-square_distribution_table "Chi Square distribution"
+[image2]: ./chi-square_distribution_table.jpg "Chi Square distribution"
 
 
 ## Parameters and consistency
